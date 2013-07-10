@@ -6,7 +6,7 @@ var ordet = fs.readFileSync('index.html');
 
 
 app.get('/', function(request, response) {
-  response.send(ordet.toString('utf8', 0, len);
+  response.send(ordet.toString('utf8', 0, len));
 });
 
 var port = process.env.PORT || 5000;
